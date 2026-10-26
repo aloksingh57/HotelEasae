@@ -25,19 +25,7 @@
             text-align: center;
             border-bottom: 1px solid var(--slate-200);
         }
-        .hero-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 6px 16px;
-            background: #eef2ff;
-            color: var(--blue-600);
-            border-radius: var(--radius-full);
-            font-size: 13px;
-            font-weight: 700;
-            border: 1px solid #c7d2fe;
-            margin-bottom: 24px;
-        }
+
         .hero-title {
             font-size: 48px;
             font-weight: 800;
@@ -108,10 +96,6 @@
     <!-- Hero Section -->
     <section class="hero-section">
         <div class="container">
-            <div class="hero-badge">
-                <i class="bi bi-shield-check"></i>
-                <span>Enterprise Production Ready &bull; PostgreSQL 17 &bull; Tomcat 10</span>
-            </div>
             <h1 class="hero-title">Intelligent Campus Living & <span class="text-primary">Smart Hostel Management</span></h1>
             <p class="hero-subtitle">
                 Unified operational platform featuring real-time room occupancy, temporary student vacancy tracking, automated fee invoicing, and seamless leave approvals.
